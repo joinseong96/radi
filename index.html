@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" ></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script src="../js/chart.js"></script>
+    <title>radi</title>
+</head>
+<body>
+    <div class="page_content">
+        <section class="main_banner">
+            <div class="main_banner_txt">
+                <a class="history_back_button" href="javascript:window.history.back();"><img src="../images/icon_arrow_back.svg" alt="history_back_button"></a>
+                <div class="txt_content">
+                    <h2><img src="../images/img_logo.svg" alt="logo_image"></h2>
+                    <p>소비자의 전력량 분석 시스템 구축 개발<br>
+                        React, JAVA
+                    </p>
+                    <p>Development<br>Develop</p>
+                </div>
+            </div>
+            <div class="main_mockup">
+                <img src="../images/img_main_mockup.png" alt="main_mockup">
+            </div>
+            <div class="scroll_down_img" onclick="goToScroll('scroll_top')">
+              <div class="scroll_down_box">
+                <div class="scroll_down_circle"><img src="../images/img_circle_bottom.png" alt="scroll_down_circle"></div>
+                <div class="scroll_down_finger"><img src="../images/icon_bottom_finger.svg" alt="scroll_down_circle"></div>
+              </div>
+            </div>
+         </section>
+        <div class="bg_frame frame01">
+            <img src="../images/img_bg_frame01.png" alt="backgroound_frame_image">
+            <img src="../images/img_bg_frame_mb01.png" alt="backgroound_frame_image">
+        </div>
+        <section class="radi_wrap_box">
+          <div class="radi_content_wrap">
+            <div class="radi_content_wrap_title">
+              RADI
+            </div>
+            <div class="radi_content_list_box">
+              <div class="radi_content_list">
+                <div class="list_icon"><img src="../images/icon_client.svg" alt="client_icon"></div>
+                <span>CLIENT</span>
+                <span>RADI</span>
+              </div>
+              <div class="radi_content_list mb">
+                <div class="list_icon"><img src="../images/icon_work.svg" alt="work_icon"></div>
+                <span>WORK</span>
+                <span>UL/UX DESIGN</span>
+                <span>PUBLISING</span>
+                <span>FRONT-END</span>
+                <span>BACK-END</span>
+                <div class="inner">
+                    UI/UX DESIGN<br>PUBLISING<br>FRONT-END, BACK-END
+                </div>
+              </div>
+              <div class="radi_content_list">
+                <div class="list_icon"><img src="../images/icon_device.svg" alt="device_icon"></div>
+                <span>DEVICE</span>
+                <span>APP</span>
+                <span>(Android,IOS)</span>
+              </div>
+              <div class="radi_content_list">
+                <div class="list_icon"><img src="../images/icon_date.svg" alt="date_icon"></div>
+                <span>DATE</span>
+                <span>2023</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="radi_about guide_line">
+            <div class="txt_content">
+                <ul class="about_txt_left">
+                    <li>SIMPLE</li>
+                    <li>ENERGY</li>
+                    <li>SYSTEM</li>
+                    <li>RADI</li>
+                </ul>
+                <div class="about_txt_right">
+                    <div>MANAGEMENT</div>
+                    <div>APPLICATIONS</div>
+                </div>
+                <p class="about_txt_left_mb">SIMPLEENERGY MANAGEMENT</p>
+                <p class="about_txt_right_mb">SYSTEM <span>RADI</span><br>APPLICATIONS</p>
+                <div class="about_mockup">
+                    <div class="inner">
+                        <img src="../images/img_about_mockup.png" alt="about_mockup">
+                    </div>
+                </div>
+            </div>
+            <div class="about_title">
+                <h2>ABOUT 'RADI'</h2>
+                <p>국내와 달리 민간사업으로 운영되는 미국에서
+                    User들이 자신의 전력량을 통합적으로 확인하고,
+                    자신의 데이터에서 가장 효율적으로 사용가능한
+                    Solar energy에 대한 정보를 제공하는 APP이다.
+                </p>
+            </div>
+        </section>
+        <section class="radi_system">
+            <div class="inner">
+                <div class="system_left system_list">
+                    <div class="inner">
+                        <span>01</span>
+                        <div>UI/UX<br>설계</div>
+                    </div>
+                </div>
+                <div class="system_top system_list">
+                    <div class="inner">
+                        <span>02</span>
+                        <div>그래프 및<br>데이터 구축</div>
+                    </div>
+                </div>
+                <div class="system_bottom system_list">
+                    <div class="inner">
+                        <span>03</span>
+                        <div>Pelm API<br>연동</div>
+                    </div>
+                </div>
+                <div class="system_right system_list">
+                    <div class="inner">
+                        <div><img src="../images/img_logo.svg" alt="logo_image"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_frame frame02">
+                <img src="../images/img_bg_frame02.png" alt="backgroound_frame_image">
+                <img src="../images/img_bg_frame02.png" alt="backgroound_frame_image">
+            </div>
+        </section>
+        <section class="mb_radi_system">
+            <div class="inner">
+                <div class="mb_system_top mb_system_list">
+                    <div class="inner">
+                        <span>01</span>
+                        <div>UI/UX<br>설계</div>
+                    </div>
+                </div>
+                <div class="mb_system_left mb_system_list">
+                    <div class="inner">
+                        <span>02</span>
+                        <div>그래프 및<br>데이터 구축</div>
+                    </div>
+                </div>
+                <div class="mb_system_right mb_system_list">
+                    <div class="inner">
+                        <span>03</span>
+                        <div>Pelm API<br>연동</div>
+                    </div>
+                </div>
+                <div class="mb_system_bottom mb_system_list">
+                    <div class="inner">
+                        <div><img src="../images/img_logo.svg" alt="logo_image"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_frame frame02">
+                <img src="../images/img_bg_frame02.png" alt="backgroound_frame_image">
+                <img src="../images/img_bg_frame_mb02.png" alt="backgroound_frame_image">
+            </div>
+        </section>
+        <section class="radi_color guide_line">
+            <h2 class="title">COLOR</h2>
+            <ul>
+                <li>1CB6F5</li>
+                <li>FEFEFE</li>
+                <li>5AD250</li>
+                <li>FB5858</li>
+                <li>1B1B1B</li>
+            </ul>
+        </section>
+        <section class="radi_font guide_line">
+            <h2 class="title">FONT-FAMILY</h2>
+            <div class="font_content">
+                <div class="montserrat">
+                    <div>MONTSERRAT</div>
+                    <ul>
+                        <li>abcdefghijklmnopqrstuvwxyz</li>
+                        <li>abcdefghijklmnopqrstuvwxyz</li>
+                        <li>123456789</li>
+                    </ul>
+                </div>
+                <div class="cabin">
+                    <div>CABIN</div>
+                    <ul>
+                        <li>abcdefghijklmnopqrstuvwxyz</li>
+                        <li>abcdefghijklmnopqrstuvwxyz</li>
+                        <li>123456789</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="radi_icon">
+            <h2 class="title">ICONS</h2>
+            <div class="inner">
+                <div class="icon_box left">
+                    <ul>
+                        <li><img src="../images/icon_radi_icon01.png" alt="radi_icon"></li>
+                        <li><img src="../images/icon_radi_icon02.png" alt="radi_icon"></li>
+                        <li><img src="../images/icon_radi_icon03.png" alt="radi_icon"></li>
+                    </ul>
+                </div>
+                <div class="icon_box right">
+                    <div><img src="../images/gif_fin.gif" alt="radi_icon"></div>
+                </div>
+            </div>
+            <div class="icon_content">
+                <div class="icon_home"><img src="../images/icon_home.png" alt="home_icon_image"></div>
+                <div class="icon_man"><img src="../images/icon_man.png" alt="man_icon_image"></div>
+                <ul class="icon_wrap">
+                    <li class="icon_list"><img src="../images/icon_icon01.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon02.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon03.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon04.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon05.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon06.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon07.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon08.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon09.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon10.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon11.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon12.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon13.svg" alt="icon_list_image"></li>
+                    <li class="icon_list"><img src="../images/icon_icon14.svg" alt="icon_list_image"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="radi_banner guide_line">
+            <img src="../images/img_banner.png" alt="banner_image">
+        </section>
+        <section class="radi_design guide_line">
+            <h2 class="title">DESIGN DETAIL</h2>
+            <div class="design_top">
+                <div class="img_content"><img src="../images/img_detail_mockup01.png" alt="image_mockup"></div>
+                <div class="txt_content left">
+                    <div>
+                        <div class="inner">
+                            Utility connect로<br> 전력 사용량 그래프화
+                        </div>
+                        <div class="detail_border"></div>
+                    </div>
+                </div>
+                <div class="txt_content right">
+                    <div>
+                        <div class="inner">
+                            전력량에 대한 Bill history<br> 데이터 정리 및 제공
+                        </div>
+                        <div class="detail_border"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="design_bottom">
+                <ul>
+                    <li><img src="../images/img_detail_mockup02.png" alt="image_mockup"></li>
+                    <li><img src="../images/img_detail_mockup03.png" alt="image_mockup"></li>
+                    <li><img src="../images/img_detail_mockup04.png" alt="image_mockup"></li>
+                    <li><img src="../images/img_detail_mockup05.png" alt="image_mockup"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="radi_score guide_line">
+            <div class="score_content">
+                <div class="txt_content">
+                    <div>Score 300 To 850</div>
+                    <p>User가 사용한 전력량을 그래프로 한 눈에 알아보기 쉽게<br>시각화 후 전 달과 비교한 데이터 제공</p>
+                </div>
+                <ul class="color_wrap">
+                   <li class="color_list first">Excellent!</li>
+                   <li class="color_list second">Good!</li>
+                   <li class="color_list third">Fair</li>
+                   <li class="color_list fourth">Bad</li>
+                   <li class="color_list fifth">Very Bad</li>
+                </ul>
+            </div>
+            <div class="score_graph">
+                <div id="container"></div>
+                <div class="txt_content">
+                    <span>875</span><br><span>Excellent!</span>
+                </div>
+            </div>
+        </section>
+        <section class="solar_system">
+            <div class="inner">
+                <div class="solar_title">
+                    <div class="inner">
+                        <h2>Solar System 제공</h2>
+                        <p>User의 전력 소비량과 소비습관을 로직에 맞춰
+                            적절한 Solar System을 추천해주도록 데이터 구축
+                        </p>
+                    </div>
+                </div>
+                <div class="solar_top">
+                    <div class="solar_list">
+                        <div class="inner">
+                            <img src="../images/img_system_mockup01.png" alt="system_image"></div>
+                        </div>
+                    <div class="solar_list">
+                        <div class="inner">
+                            <img src="../images/img_system_mockup02.png" alt="system_image"></div>
+                        </div>
+                    <div class="solar_list">
+                        <div class="inner">
+                            <img src="../images/img_system_mockup03.png" alt="system_image"></div>
+                        </div>
+                </div>
+                <div class="solar_bottom">
+                    <div class="describe_wrap">
+                        <div class="solar_describe01"><img src="../images/img_describe01.png" alt="describe_image"></div>
+                        <div class="solar_describe02"><img src="../images/img_describe02.png" alt="describe_image"></div>
+                    </div>
+                    <div class="solar_list"><img src="../images/img_system_mockup04.png" alt="mockup_image"></div>
+                </div>
+            </div>
+            <div class="bg_frame frame03">
+                <img src="../images/img_bg_frame03.png" alt="background_frame_image">
+                <img src="../images/img_bg_frame_mb03.png" alt="background_frame_image">
+            </div>
+        </section>
+        <section class="radi_fin">
+            <div class="radi_fin_text">
+              <p>LIFPYS</p>
+              <p>www.lifpys.com</p>
+            </div>
+        </section>
+    </div>
+    <script>
+
+
+
+    $(window).on('scroll', function() {
+        
+    const chartWrapperTop = $('.score_graph').offset().top - 200; // 해당 영역의 상단 위치 계산
+    const chartWrapperHeight = $('.score_graph').outerHeight(); // 해당 영역의 높이 계산
+    const windowHeight = $(window).height(); // 브라우저 창의 높이 계산
+    const windowScrollTop = $(window).scrollTop(); // 현재 스크롤 위치 계산
+
+    if (chartWrapperTop + chartWrapperHeight - windowHeight <= windowScrollTop && chartWrapperTop + chartWrapperHeight > windowScrollTop) { // 해당 영역이 브라우저 창 안에 있을 경우
+        var chart = Highcharts.chart('container', {
+            chart: {
+            type: 'solidgauge',
+            backgroundColor: "#1e1e1e",
+            },
+            title: {
+                text: null,
+                },
+            credits: {
+            enabled: false,
+            },
+            pane: {
+                startAngle: 0,
+                endAngle: 360,
+                background: [
+                    {
+                    outerRadius: "112%",
+                    innerRadius: "88%",
+                    backgroundColor: "#393939",
+                    borderWidth: 0,
+                    },
+                ],
+                },
+            yAxis: {
+            min: 0,
+            max: 1000,
+            lineWidth: 0,
+            tickPositions: []
+            },
+            plotOptions: {
+            solidgauge: {
+                dataLabels: {
+                enabled: false
+                },
+                linecap: 'round',
+                stickyTracking: false,
+                rounded: true
+            }
+            },
+            series: [
+              {
+                name: '',
+                data: [
+                        {
+                          color: '#00D1FF',
+                          radius: '112%',
+                          innerRadius: '88%',
+                          y: nowData,
+                        }
+                    ],
+                    dataLabels: {
+                    enabled: true,
+                    useHTML: true,
+                    verticalAlign: "middle",
+                    borderColor: "none",
+                    formatter: function () {
+                        return this.y >= 875
+                        ? "<b>" + this.y + "</b>" + "<br /> <span>Excellent!</span>"
+                        : this.y >= 750
+                        ? "<b>" + this.y + "</b>" + "<br /> <span>Good</span>"
+                        : this.y >= 650
+                        ? "<b>" + this.y + "</b>" + "<br /> <span>Fair</span>"
+                        : this.y >= 560
+                        ? "<b>" + this.y + "</b>" + "<br /> <span>Bad</span>"
+                        : "<b>" + this.y + "</b>" + "<br /> <span>Very bad</span>";
+                    },
+                  },
+                }
+              ]
+            });
+
+           $('.color_list.first').click(function(){
+               var nowData = [875];
+               chart.series[0].update({data: nowData});
+               chart.series[0].data[0].update({color: '#00D1FF' });
+               chart.redraw();
+           })
+           $('.color_list.second').click(function(){
+               var nowData = [750];
+               chart.series[0].update({data: nowData});
+               chart.series[0].data[0].update({color: '#51DB45' });
+               chart.redraw();
+           })
+           $('.color_list.third').click(function(){
+               var nowData = [650];
+               chart.series[0].update({data: nowData});
+               chart.series[0].data[0].update({color: '#9F9F9F' });
+               chart.redraw();
+           })
+           $('.color_list.fourth').click(function(){
+               var nowData = [560];
+               chart.series[0].update({data: nowData});
+               chart.series[0].data[0].update({color: '#D07635' });
+               chart.redraw();
+           })
+           $('.color_list.fifth').click(function(){
+               var nowData = [0];
+               chart.series[0].update({data: nowData});
+               chart.series[0].data[0].update({color: '#BB2222' });
+               chart.redraw();
+           })
+        $(window).off('scroll'); // 스크롤 이벤트 리스너 삭제
+      }
+    });
+
+    let nowData = 875;
+
+    const colorChange = () =>
+    nowData >= 875
+    ? "#00D1FF"
+    : nowData >= 750
+    ? "#51DB45"
+    : nowData >= 650
+    ? "#9F9F9F"
+    : nowData >= 560
+    ? "#D07635" 
+    : "#BB2222";
+    
+
+        //     function dataChange(updateData){
+        //         nowData = updateData;
+        //         chart.series[0].update({data: [updateData]});
+        //         chart.series[0].data[0].update({color: colorChange(updateData)});
+        //         chart.redraw();
+        //     }
+        //     $('.color_list.first').click(function(updateData){
+        //        var nowData = [875];
+        //        var newColor = 'green';
+        //        chart.series[0].update({data: nowData});
+        //        chart.series[0].data[0].update({color: colorChange(updateData)})
+        //        chart.redraw();
+        //        console.log(nowData)
+        //        console.log(newColor)
+        //    })
+
+        //    $('.color_list.first').click(function(){
+        //        var nowData = [875];
+        //        chart.series[0].update({data: nowData});
+        //        chart.series[0].data[0].update({color: 'red' });
+        //        chart.redraw();
+        //        console.log(nowData)
+        //        console.log(newColor)
+        //    })
+
+        
+    </script>
+</body>
+</html>
